@@ -272,6 +272,7 @@ h3 {
     }
     .tombol-menu {
         display: flex;
+        width: 100%;
     }
     nav .menu {
         display: none;
