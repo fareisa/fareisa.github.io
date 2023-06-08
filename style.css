@@ -92,7 +92,7 @@ h2 {
     line-height: 50px;
 }
 
-a.tbl-biru {
+a.biru {
     background: #3f72af;
     border-radius: 20px;
     margin-top: 20px;
@@ -102,7 +102,7 @@ a.tbl-biru {
     font-weight: bold;
 }
 
-a.tbl-biru:hover {
+a.biru:hover {
     background: #fc5185;
     text-decoration: none;
 }
