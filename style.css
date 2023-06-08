@@ -120,7 +120,7 @@ a.biru:hover {
     text-decoration: none;
 }
 
-a.tbl-pink {
+a.oren {
     background: #FFA200;
     border-radius: 20px;
     margin-top: 20px;
@@ -130,7 +130,7 @@ a.tbl-pink {
     font-weight: bold;
 }
 
-a.tbl-pink:hover {
+a.oren:hover {
     background: #3f72af;
     text-decoration: none;
 }
@@ -159,7 +159,7 @@ p {
 
 .foto-foto img {
     width: 80%;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .foto-foto p {
