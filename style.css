@@ -170,22 +170,28 @@ p {
     color: #364f6b;
 }
 
-#contact {
+#kontak {
     background: #dedede;
     padding:50px 0px 50px 0px;
 }
 
-.footer {
-    width: 100%;
-    position: relative;
+.row {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
 }
 
-.footer-section {
+ul {
+    list-style: none;
+}
+
+.footer {
+    padding: 10px 0;
+}
+
+.footer-col {
     width: 20%;
-    margin: 0 auto;
+    padding: 0 20px;
 }
 
 h3 {
@@ -246,9 +252,10 @@ h3 {
         width: 50%;
     }
 
-    .kartu-partner {
-        width: 50%;
+    .footer-col {
+        width: 100%;
     }
+
 }
 .tombol-menu {
     position: absolute;
