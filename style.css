@@ -7,6 +7,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #E6F2FE;
     font-family: 'Open Sans',sans-serif;
 }
 
@@ -17,10 +18,10 @@ body {
 }
 
 .logo a {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 800;
     float: left;
-    font-family: courier;
+    font-weight: bold;
     color: #364f6b;
 }
 
@@ -71,21 +72,33 @@ section {
 }
 
 .kolom {
-    margin-top: 50px;
+    margin-top: 1px;
     margin-bottom: 50px;
+}
+
+.kolo {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.kolo .deskrips {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans',sans-serif;
+    color: #364f6b;
 }
 
 .kolom .deskripsi {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans ms';
+    font-family: 'Open Sans',sans-serif;
     color: #364f6b;
 }
 
 h2 {
-    font-family: 'comic sans ms';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 800;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 20px;
     color: #364f6b;
     width: 100%;
@@ -103,12 +116,12 @@ a.biru {
 }
 
 a.biru:hover {
-    background: #fc5185;
+    background: #FFA200;
     text-decoration: none;
 }
 
 a.tbl-pink {
-    background: #fc5185;
+    background: #FFA200;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
@@ -132,46 +145,29 @@ p {
     width: 100%;
 }
 
-.tutor-list {
+.foto {
     width: 100%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
 }
 
-.kartu-tutor {
+.foto-foto {
     width: 20%;
     margin: 0 auto;
 }
 
-.kartu-tutor img {
+.foto-foto img {
     width: 80%;
     border-radius: 50%;
 }
 
-.kartu-tutor p {
-    font-family: 'comic sans ms';
+.foto-foto p {
+    font-family: 'Open Sans',sans-serif;
     font-weight: 800;
     font-size: 25px;
     text-align: center;
     color: #364f6b;
-}
-
-.partner-list {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.kartu-partner {
-    width: 20%;
-    margin: 0 auto;
-}
-
-.kartu-partner img {
-    width: 150px;
-    border-radius: 50%;
 }
 
 #contact {
@@ -193,7 +189,7 @@ p {
 }
 
 h3 {
-    font-family: 'comic sans ms';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
@@ -246,7 +242,7 @@ h3 {
         height: auto;
     }
 
-    .kartu-tutor {
+    .foto-foto {
         width: 50%;
     }
 
@@ -287,4 +283,12 @@ h3 {
         width:100%;
         border-bottom:1px solid #333333;
     }
+}
+
+.kedua {
+    margin-top: 80px;
+}
+
+.pertama {
+    margin-top: 40px;
 }
