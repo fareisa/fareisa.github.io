@@ -155,19 +155,12 @@ p {
 .foto-foto {
     width: 20%;
     margin: 0 auto;
+    padding-left: 40px;
 }
 
 .foto-foto img {
     width: 80%;
     border-radius: 20%;
-}
-
-.foto-foto p {
-    font-family: 'Open Sans',sans-serif;
-    font-weight: 800;
-    font-size: 25px;
-    text-align: center;
-    color: #364f6b;
 }
 
 #kontak {
