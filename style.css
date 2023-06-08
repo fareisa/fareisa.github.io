@@ -249,6 +249,10 @@ h3 {
         width: 100%;
     }
 
+    .materi .popup-image img {
+        width: 95%;
+    }
+
 }
 .tombol-menu {
     position: absolute;
@@ -291,4 +295,14 @@ h3 {
 
 .pertama {
     margin-top: 40px;
+}
+
+.kalender {
+    width: 310px;
+    margin-top: 90px;
+}
+
+.list-materi {
+    margin-top: 80px;
+    margin-left: 20px;
 }
