@@ -257,8 +257,8 @@ h3 {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 20px;
+    width: 50px;
+    height: 30px;
 }
 
 .tombol-menu .garis {
