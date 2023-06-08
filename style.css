@@ -155,7 +155,7 @@ p {
 .foto-foto {
     width: 20%;
     margin: 0 auto;
-    padding-left: 40px;
+    padding-left: 25px;
 }
 
 .foto-foto img {
@@ -257,12 +257,12 @@ h3 {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
 }
 
 .tombol-menu .garis {
-    height: 5px;
+    height: 3px;
     background-color: #3f72af;
 }
 
