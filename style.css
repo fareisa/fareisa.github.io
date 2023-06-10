@@ -249,9 +249,17 @@ h3 {
         width: 100%;
     }
 
-    .materi .popup-image img {
-        width: 95%;
+    .kalender {
+        width: 100%;
+        display: block;
+        height: auto;
     }
+
+    .text-kalender {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }    
 
 }
 .tombol-menu {
@@ -298,16 +306,60 @@ h3 {
 }
 
 .kalender {
-    width: 310px;
     margin-top: 90px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .list-materi {
     margin-top: 80px;
-    margin-left: 20px;
+}
+
+.list-materi ul {
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 17px;
+    font-family: 'Open Sans',sans-serif;
+    color: #364f6b;
+}
+
+.list-materi ul li a {
+    text-decoration:none;
+    color: #364f6b;
+}
+
+.list-materi ul li a:hover {
+    text-decoration: underline;
 }
 
 .caption {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans',sans-serif;
+    color: #364f6b;
+}
+
+.row-isi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    padding-left: 15px;
+    line-height: 0;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Open Sans',sans-serif;
+    color: #364f6b;
+}  
+
+.text-kalender {
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
