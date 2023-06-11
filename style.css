@@ -178,7 +178,7 @@ p {
 }
 
 ul {
-    list-style: none;
+   list-style: none;
 }
 
 .footer {
@@ -204,7 +204,7 @@ h3 {
     text-align: center;
     width: 100%;
     padding: 50px 0px 50px 0px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -376,4 +376,5 @@ h3 {
 
 .red {
     color: red;
+    text-align: center;
 }
