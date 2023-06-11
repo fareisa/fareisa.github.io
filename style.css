@@ -146,16 +146,19 @@ p {
 }
 
 .foto {
-    width: 100%;
-    position: relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    width: 100%;
+    height: auto;
 }
 
 .foto-foto {
     width: 20%;
     margin: 0 auto;
     padding-left: 15px;
+    padding-bottom: 20px;
 }
 
 .foto-foto img {
