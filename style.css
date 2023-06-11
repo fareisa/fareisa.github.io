@@ -148,7 +148,8 @@ p {
 .foto {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-flow: wrap;
     width: 100%;
     height: auto;
@@ -262,7 +263,8 @@ h3 {
         text-align: center;
         display: block;
         width: 100%;
-    }    
+    }
+    
 
 }
 .tombol-menu {
@@ -377,4 +379,27 @@ h3 {
 .red {
     color: red;
     text-align: center;
+}
+
+.gif {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.tes {
+    padding-left: 15px;
+    line-height: 0;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.tes a {
+    text-decoration: none;
+    color: #3f72af;
+}
+
+.tes a:hover {
+    color: #FFA200;
 }
